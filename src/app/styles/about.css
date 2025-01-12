@@ -1,0 +1,135 @@
+.about-page {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Start from the top */
+    align-items: center;
+    min-height: 100vh;
+    /* Ensures at least the viewport height */
+    width: 100vw;
+    overflow-y: auto;
+    /* Enables vertical scrolling */
+    position: relative;
+}
+
+.title-container {
+    position: absolute;
+    top: 2vh;
+    left: 0;
+    padding: 5rem;
+}
+
+.title {
+    font-size: 5rem;
+    background: linear-gradient(to right, rgb(62, 161, 207), rgb(5, 130, 180));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: "League Spartan";
+}
+
+.sh-container {
+    position: absolute;
+    top: 23vh;
+    left: 5vw;
+}
+
+.subheading {
+    font-family: "Poppins";
+    font-style: italic;
+    font-size: .95rem;
+    color: rgb(255, 255, 255);
+    font-weight: 50;
+}
+
+.p-1-container {
+    position: absolute;
+    width: 50rem;
+    left: 3vw;
+    top: 27vh;
+}
+
+.p-1 {
+    padding: 2rem;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+}
+
+.break {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 1vh;
+    background-color: rgb(167, 167, 167);
+    z-index: 100;
+    top: 75vh;
+}
+
+.navbar>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar>ul>li {
+    display: inline-block;
+    margin-right: 10vw;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    left: 27vw;
+    position: absolute;
+    top: 4vh;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title2-container {
+    position: absolute;
+    top: 80vh;
+    left: 0;
+    padding: 5rem;
+}
+
+.title-2 {
+    font-size: 3rem;
+    background: linear-gradient(to right, rgb(96, 29, 151), rgb(105, 10, 214));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: "League Spartan";
+}
+
+.stats {
+    position: absolute;
+    top: 85vh;
+}
+
+.n-1, .n-2,.n-3, .n-4 {
+    font-size: 12rem;
+}
+
+.n-1-container {
+    position:absolute;
+    right:25vw;
+    top:-3vh;
+}
+
+.n-2-container {
+    position:absolute;
+    right:25vw;
+    top:5vh;
+}
