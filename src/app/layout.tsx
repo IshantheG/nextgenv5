@@ -28,6 +28,7 @@ export default function RootLayout({
       <head>
       <link href="https://fonts.cdnfonts.com/css/league-spartan" rel="stylesheet"/>
       <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
+      <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'/>
       </head>
 
       <body className={`${geistSans.variable} ${geistMono.variable}`}>

@@ -1,0 +1,559 @@
+.Session-page {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Start from the top */
+    align-items: center;
+    min-height: 100vh;
+    /* Ensures at least the viewport height */
+    width: 100vw;
+    overflow-y: auto;
+    /* Enables vertical scrolling */
+    position: relative;
+    overflow: visible;
+}
+
+.ChartCon {
+    position: relative;
+    overflow: visible;
+    width: 100%; /* Allow flexibility */
+    height: auto;
+}
+
+.Chart {
+    position: relative;
+    width: 550px; /* Allow the image to resize based on parent */
+    max-width: 1000px; /* Ensure the image doesn't grow too large */
+    height: auto;
+    transform: translate(900px, 150px); /* Apply movement */
+}
+
+.ScheduleCon {
+    position: relative;
+    overflow: visible;
+    width: 100%; /* Allow flexibility */
+    height: auto;
+}
+
+.Schedule {
+    position: relative;
+    width: 80vw; /* Allow the image to resize based on parent */
+    
+    height: auto;
+    transform: translate(10vw, 30vh); /* Apply movement */
+}
+
+.JeopardyCon {
+    position: relative;
+    overflow: visible;
+    width: 100%; /* Allow flexibility */
+    height: auto;
+}
+
+.Jeopardy {
+    position: relative;
+    width: 25vw; /* Allow the image to resize based on parent */
+    
+    height: auto;
+    transform: translate(65vw, 43vh); /* Apply movement */
+}
+
+.WhiteBoardingCon {
+    position: relative;
+    overflow: visible;
+    width: 100%; /* Allow flexibility */
+    height: auto;
+}
+
+.Whiteboarding {
+    position: relative;
+    width: 25vw; /* Allow the image to resize based on parent */
+    
+    height: auto;
+    transform: translate(65vw, 50vh); /* Apply movement */
+}
+
+.MindsetCon {
+    position: relative;
+    overflow: visible;
+    width: 100%; /* Allow flexibility */
+    height: auto;
+}
+
+.Mindset {
+    position: relative;
+    width: 25vw; /* Allow the image to resize based on parent */
+    
+    height: auto;
+    transform: translate(7vw, 60vh); /* Apply movement */
+}
+
+.ScholarshipCon {
+    position: relative;
+    overflow: visible;
+    width: 100%; /* Allow flexibility */
+    height: auto;
+}
+
+.Scholarship {
+    position: relative;
+    width: 25vw; /* Allow the image to resize based on parent */
+    
+    height: auto;
+    transform: translate(7vw, 65vh); /* Apply movement */
+}
+
+.QuantumComputingCon {
+    position: relative;
+    overflow: visible;
+    width: 100%; /* Allow flexibility */
+    height: auto;
+}
+
+.QuantumComputing {
+    position: relative;
+    width: 25vw; /* Allow the image to resize based on parent */
+    
+    height: auto;
+    transform: translate(7vw, 120vh); /* Apply movement */
+}
+
+.IdeationCon {
+    position: relative;
+    overflow: visible;
+    width: 100%; /* Allow flexibility */
+    height: auto;
+}
+
+.Ideation {
+    position: absolute;
+    width: 25vw; /* Allow the image to resize based on parent */
+    transform: translate(68vw, 87vh); /* Apply movement */
+    height: auto;
+    
+}
+
+.DesignCon {
+    position: relative;
+    overflow: visible;
+    width: 100%; /* Allow flexibility */
+    height: auto;
+}
+
+.Design {
+    position: relative;
+    height: 15vw; /* Allow the image to resize based on parent */
+    
+    width: auto;
+    
+    transform: translate(33vw, 88vh); /* Apply movement */
+}
+
+
+
+
+
+
+.title-container {
+    position: absolute;
+    top: 2vh;
+    left: 0;
+    padding: 5rem;
+}
+
+
+.title {
+    font-size: 5rem;
+    background: linear-gradient(to right, #00c3cc, #4047eb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: "League Spartan";
+}
+
+.sh-container {
+    position: absolute;
+    top: 25vh;
+    left: 5vw;
+}
+
+.subheading {
+    font-family: "Poppins";
+    font-style: italic;
+    font-size: .95rem;
+    color: rgb(255, 255, 255);
+    font-weight: 50;
+}
+
+.p-1-container {
+    position: absolute;
+    width: 50rem;
+    left: 3vw;
+    top: 27vh;
+}
+
+.p-1 {
+    padding: 2rem;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins";
+}
+
+.p-2 {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins";
+}
+
+.break {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 1vh;
+    background-color: rgb(167, 167, 167);
+    z-index: 100;
+    top: 85vh;
+}
+
+.navbar>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar>ul>li {
+    display: inline-block;
+    margin-right: 10vw;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.navbar-container {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    left: 22vw;
+    position: absolute;
+    top: 4vh;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title2-container {
+    position: absolute;
+    top: 80vh;
+    left: 0;
+    padding: 5rem;
+}
+
+.title-2 {
+    font-size: 3rem;
+    background: linear-gradient(to right, rgb(96, 29, 151), rgb(105, 10, 214));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: "League Spartan";
+}
+
+
+.Week1 {
+    position: absolute;
+    left: 5vw;
+    top: 195vh;
+    font-size: 1.5rem;
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Ensures content doesn't overflow visibly */
+    text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
+    font-family: "Poppins";
+}
+
+.Week1-Time {
+    position: absolute;
+    left: 5vw;
+    top: 200vh;
+    font-size: 1.5rem;
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Ensures content doesn't overflow visibly */
+    text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
+    font-family: "Poppins";
+}
+
+
+.Week1-Container{
+    position: absolute;
+    width: 50rem;
+    left: 5vw;
+    top: 207vh;
+}
+
+.Week1p {
+    font-family: "Lato";
+    color: #ffffff;  
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins"; 
+}
+
+.Week2 {
+    position: absolute;
+    right: 5vw;
+    top: 270vh;
+    font-size: 1.5rem;
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Ensures content doesn't overflow visibly */
+    text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
+    font-family: "Poppins";
+}
+
+.Week2-Time {
+    position: absolute;
+    right: 5vw;
+    top: 275vh;
+    font-size: 1.5rem;
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Ensures content doesn't overflow visibly */
+    text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
+    font-family: "Poppins";
+}
+
+.Week2-Container{
+    position: absolute;
+    width: 50rem;
+    right: 5vw;
+    top: 282vh;
+}
+.Week2p {
+    font-family: "Poppins";
+    color: #ffffff;  
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins"; 
+}
+
+.Week3 {
+    position: absolute;
+    left: 5vw;
+    top: 340vh;
+    font-size: 1.5rem;
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Ensures content doesn't overflow visibly */
+    text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
+    font-family: "Poppins";
+}
+
+.Week3-Time {
+    position: absolute;
+    left: 5vw;
+    top: 345vh;
+    font-size: 1.5rem;
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Ensures content doesn't overflow visibly */
+    text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
+    font-family: "Poppins";
+}
+
+.Week3-Container{
+    position: absolute;
+    width: 80rem;
+    left: 5vw;
+    top: 352vh;
+}
+.Week3p {
+    font-family: "Poppins";
+    color: #ffffff;  
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins"; 
+}
+
+.Week4 {
+    position: absolute;
+    right: 5vw;
+    top: 425vh;
+    font-size: 1.5rem;
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Ensures content doesn't overflow visibly */
+    text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
+    font-family: "Poppins";
+}
+
+.Week4-Time {
+    position: absolute;
+    right: 5vw;
+    top: 430vh;
+    font-size: 1.5rem;
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Ensures content doesn't overflow visibly */
+    text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
+    font-family: "Poppins";
+}
+
+.Week4-Container{
+    position: absolute;
+    width: 50rem;
+    right: 5vw;
+    top: 437vh;
+}
+.Week4p {
+    font-family: "Poppins";
+    color: #ffffff;  
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins"; 
+}
+
+.MarketCon {
+    position: absolute;
+    overflow: visible;
+    width: 100%; /* Allow flexibility */
+    height: auto;
+}
+
+.Market {
+    position: absolute;
+    width: 25vw; /* Allow the image to resize based on parent */
+    
+    height: auto;
+    transform: translate(7vw, 435vh); /* Apply movement */
+}
+
+.PitchCon {
+    position: absolute;
+    overflow: visible;
+    width: 100%; /* Allow flexibility */
+    height: auto;
+}
+
+.Pitch {
+    position: absolute;
+    width: 25vw; /* Allow the image to resize based on parent */
+    
+    height: auto;
+    transform: translate(7vw, 470vh); /* Apply movement */
+}
+
+.Week5 {
+    position: absolute;
+    left: 5vw;
+    top: 505vh;
+    font-size: 1.5rem;
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Ensures content doesn't overflow visibly */
+    text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
+    font-family: "Poppins";
+}
+
+.Week5-Time {
+    position: absolute;
+    left: 5vw;
+    top: 510vh;
+    font-size: 1.5rem;
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Ensures content doesn't overflow visibly */
+    text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
+    font-family: "Poppins";
+}
+
+.Week5-Container{
+    position: absolute;
+    width: 50rem;
+    left: 5vw;
+    top: 517vh;
+}
+
+
+.Week5p {
+    font-family: "Poppins";
+    color: #ffffff;  
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins"; 
+}
+
+.TeamCon {
+    position: absolute;
+    overflow: visible;
+    width: 100%; /* Allow flexibility */
+    height: auto;
+}
+
+.Team {
+    position: absolute;
+    width: 25vw; /* Allow the image to resize based on parent */
+    
+    height: auto;
+    transform: translate(65vw, 520vh); /* Apply movement */
+}
+
+.Theme-Container {
+    position: absolute;
+    left: 8vw;
+    top: 550vh;
+}
+.Theme {
+    font-size: 1.6rem;
+    background: linear-gradient(to right, #00c3cc, #4047eb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: "League Spartan";
+}
+
+.Week5-Container2{
+    position: absolute;
+    width: 50rem;
+    left: 5vw;
+    top: 570vh;
+}
+
+.Week5p2 {
+    font-family: "Poppins";
+    color: #ffffff;  
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins"; 
+}
+
+.MoonCon {
+    position: absolute;
+    overflow: visible;
+    width: 100%; /* Allow flexibility */
+    height: auto;
+}
+
+.Moon {
+    position: absolute;
+    width: 25vw; /* Allow the image to resize based on parent */
+    
+    height: auto;
+    transform: translate(65vw, 600vh); /* Apply movement */
+}
+
+
+
+
+
+
+
+
+
+
+
