@@ -23,11 +23,11 @@ export default function Session() {
 
             <div className = "ScholarshipCon"><img src="/Scholarship.png" alt="Scholarship" className="Scholarship"></img></div>
 
-            <div className = "QuantumComputingCon"><img src="/QuantumComputing.png" alt="QuantumComputing" className="QuantumComputing"></img></div>
+            <div className="week3div">  <div className = "QuantumComputingCon"><img src="/QuantumComputing.png" alt="QuantumComputing" className="QuantumComputing"></img></div>
 
-            <div className = "IdeationCon"><img src="/Ideation.png" alt="Ideation" className="Ideation"></img></div>
+            <div className = "IdeationCon"><img src="/Ideation.png" alt="Ideation" className="QuantumComputing"></img></div>
 
-            <div className = "DesignCon"><img src="/Design Process.png" alt="Design" className="Design"></img></div>
+            <div className = "DesignCon"><img src="/Design Process.png" alt="Design" className="QuantumComputing"></img></div></div>
 
             <div className = "MarketCon"><img src="/MarketAnalysis.png" alt="Market" className="Market"></img></div>
 
@@ -35,7 +35,9 @@ export default function Session() {
 
             <div className = "TeamCon"><img src="/TeamBuilding.png" alt="Team" className="Team"></img></div>
 
-            <div className = "MoonCon"><img src="/Moonshot.png" alt="Moon" className="Moonshot"></img></div>
+            <div className = "MoonCon"><img src="/Moonshot.png" alt="Moon" className="Moon"></img></div>
+
+            <div className = "RocketTalks"><img src="/RocketTalks.png" alt="RocketTalks" className="Rocket"></img></div>
 
 
             

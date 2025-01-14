@@ -21,7 +21,7 @@
 
 .navbar {
     display: flex;
-    left: 7vw;
+    left: 10vw;
     position: absolute;
     top: 4vh;
     justify-content: space-between;
