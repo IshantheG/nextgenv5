@@ -2,6 +2,7 @@
 
 import "../styles/hero.css";
 import React, { useState } from 'react'
+import Navbar from "../navbar/page"
 
 export default function Hero() {
 
@@ -10,26 +11,20 @@ export default function Hero() {
     const handleClick = () => {
         setblurred(prevState => !prevState)
     }
-        
+
 
 
 
 
     return (
         <div className={`hero-page ${blurred ? 'blur' : ''}`}>
-        <button className="button-21" role="button" onClick={handleClick}>
-          More
-        </button>
 
-            <div className="navbar">
-                <ul>
-                    <li>About</li>
-                    <li>Team</li>
-                    <li>Contact</li>
-                    <li>Register</li>
-                </ul>
+<Navbar />
+            <button className="button-21" role="button" onClick={handleClick}>
+                More
+            </button>
 
-            </div>
+
 
             <div className="header-container">
                 <h1 className="main-header">NextGen Learning</h1>

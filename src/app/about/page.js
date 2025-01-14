@@ -2,22 +2,15 @@
 
 import "../styles/about.css";
 import React, { useState } from 'react'
+import Navbar from "../navbar/page"
 
 
 export default function About() {
     return (
         <div className="about-page">
+            <Navbar />
 
-            <div className="navbar">
-                <ul>
-                    <li>About</li>
-                    <li>Team</li>
-                    <li>Contact</li>
-                    <li>Get Involved</li>
-                    <li>Session 1 Summary</li>
-                </ul>
-
-            </div>
+          
 
             <div className="header-container">
 

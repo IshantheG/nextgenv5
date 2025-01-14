@@ -11,6 +11,8 @@
 }
 
 .navbar-container {
+    position: absolute;
+    left: 0;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -19,12 +21,13 @@
 
 .navbar {
     display: flex;
-    left: 27vw;
+    left: 7vw;
     position: absolute;
     top: 4vh;
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
+    z-index:100;
 }
 
 

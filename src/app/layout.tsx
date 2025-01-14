@@ -26,6 +26,7 @@ export default function RootLayout({
     <html lang="en">
 
       <head>
+        <title>NextGen Learning</title>
       <link href="https://fonts.cdnfonts.com/css/league-spartan" rel="stylesheet"/>
       <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
       <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'/>

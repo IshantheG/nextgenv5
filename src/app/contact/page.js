@@ -2,22 +2,15 @@
 
 import "../styles/Contact.css";
 import React, { useState } from 'react'
+import Navbar from "../navbar/page"
 
 
 export default function Contact() {
     return (
         <div className="Session-page">
+            <Navbar />
 
-            <div className="navbar">
-                <ul>
-                    <li>About</li>
-                    <li>Team</li>
-                    <li>Contact</li>
-                    <li>Get Involved</li>
-                    <li>Iteration 1.0 Summary</li>
-                </ul>
-
-            </div>
+         
 
             <div className="header-container">
                 <div className="title-container">
