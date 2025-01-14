@@ -1,0 +1,135 @@
+.about-page {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Start from the top */
+    align-items: center;
+    min-height: 100vh;
+    /* Ensures at least the viewport height */
+    width: 100vw;
+    overflow-y: auto;
+    /* Enables vertical scrolling */
+    position: relative;
+}
+
+.title-container {
+    position: absolute;
+    top: 2vh;
+    left: 0;
+    padding: 5rem;
+}
+
+.title {
+    font-size: 5rem;
+    background: linear-gradient(to right, #00c3cc, #4047eb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: "League Spartan";
+}
+
+.PContact {
+    position: absolute;
+    top: 25vh;
+    left: 5vw;
+}
+
+
+
+.ProgramEmail {
+    padding: 2rem;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins";
+}
+
+.PEmail {
+    position: absolute;
+    top: 25vh;
+    left: 50vw;
+}
+
+
+.Email {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins";
+}
+
+.SContact {
+    position: absolute;
+    top: 40vh;
+    left: 5vw;
+}
+
+
+.Supervisor {
+    padding: 2rem;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins";
+}
+
+.EmailContainer {
+    position: absolute;
+    top: 40vh;
+    left: 50vw;
+}
+
+
+
+
+.navbar>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar>ul>li {
+    display: inline-block;
+    margin-right: 10vw;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    left: 22vw;
+    position: absolute;
+    top: 4vh;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title2-container {
+    position: absolute;
+    top: 80vh;
+    left: 0;
+    padding: 5rem;
+}
+
+.title-2 {
+    font-size: 3rem;
+    background: linear-gradient(to right, rgb(96, 29, 151), rgb(105, 10, 214));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: "League Spartan";
+}
+
+
+
