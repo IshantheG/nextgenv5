@@ -2,7 +2,7 @@
 
 import "../styles/hero.css";
 import Link from 'next/link'
-import React, { useState } from 'react'
+
 
 export default function Navbar(){
     return (
