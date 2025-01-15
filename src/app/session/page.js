@@ -14,8 +14,7 @@ export default function Session() {
             <Navbar />
             <div className = "ChartCon"><img src="/Chart.png" alt="Chart" className="Chart"></img></div>
 
-            <div className = "ScheduleCon"><img src="/Schedule.png" alt="Chart" className="Schedule"></img></div>
-
+            
             <div className = "JeopardyCon"><img src="/Jeopardy.png" alt="Jeopardy" className="Jeopardy"></img></div>
             <div className = "WhiteBoardingCon"><img src="/Whiteboarding.png" alt="Whiteboarding" className="Whiteboarding"></img></div>
 
