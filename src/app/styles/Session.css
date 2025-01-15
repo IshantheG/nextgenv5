@@ -438,7 +438,7 @@
     /* Allow the image to resize based on parent */
 
     height: auto;
-    transform: translate(7vw, 370vh);
+    transform: translate(7vw, 350vh);
     /* Apply movement */
 }
 
