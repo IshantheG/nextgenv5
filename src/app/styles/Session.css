@@ -35,7 +35,7 @@
     width: 100%;
     /* Allow flexibility */
     height: auto;
-    margin-top: 200vh;
+    margin-top: 100vh;
     margin-left: 130vw;
 }
 
@@ -50,7 +50,7 @@
     position: absolute;
     overflow: visible;
     width: 100%;
-    margin-top: 230vh;
+    margin-top: 130vh;
     margin-left: 130vw;  
     height: auto;
 }
@@ -71,7 +71,7 @@
     width: 100%;
     /* Allow flexibility */
     height: auto;
-    margin-top: 275vh;
+    margin-top: 175vh;
     margin-left: 15vw;
 }
 
@@ -91,7 +91,7 @@
     width: 100%;
     /* Allow flexibility */
     height: auto;
-    margin-top: 305vh;
+    margin-top: 105vh;
     margin-left: 15vw;
 }
 
@@ -127,7 +127,7 @@
 .week3div {
     display: flex;
     flex-direction: row;
-    margin-top: 310vh;
+    margin-top: 210vh;
     margin-left: 5%
 }
 
@@ -248,7 +248,7 @@
 .Week1 {
     position: absolute;
     left: 5vw;
-    top: 195vh;
+    top: 95vh;
     font-size: 1.5rem;
     white-space: nowrap;
     /* Prevents text wrapping */
@@ -262,7 +262,7 @@
 .Week1-Time {
     position: absolute;
     left: 5vw;
-    top: 200vh;
+    top: 100vh;
     font-size: 1.5rem;
     white-space: nowrap;
     /* Prevents text wrapping */
@@ -278,7 +278,7 @@
     position: absolute;
     width: 50rem;
     left: 5vw;
-    top: 207vh;
+    top: 107vh;
 }
 
 .Week1p {
