@@ -441,23 +441,7 @@
     font-family: "Poppins";
 }
 
-.MarketCon {
-    position: absolute;
-    overflow: visible;
-    width: 100%;
-    /* Allow flexibility */
-    height: auto;
-}
 
-.Market {
-    position: absolute;
-    width: 25vw;
-    /* Allow the image to resize based on parent */
-
-    height: auto;
-    transform: translate(7vw, 435vh);
-    /* Apply movement */
-}
 
 .PitchCon {
     position: absolute;
