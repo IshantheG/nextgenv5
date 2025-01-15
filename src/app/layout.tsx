@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import type { Metadata } from "next";
+
 import "./styles/globals.css";
 
 const geistSans = Geist({
@@ -29,7 +31,7 @@ export default function RootLayout({
         <title>NextGen Learning</title>
       <link href="https://fonts.cdnfonts.com/css/league-spartan" rel="stylesheet"/>
       <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'/>
-      <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'/>
+
       </head>
 
       <body className={`${geistSans.variable} ${geistMono.variable}`}>

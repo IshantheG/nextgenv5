@@ -1,0 +1,100 @@
+.title-container {
+    position: absolute;
+    top: 2vh;
+    left: 0;
+    padding: 5rem;
+}
+
+.title {
+    font-size: 5rem;
+    background: linear-gradient(to right, #00c3cc, #4047eb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: "League Spartan";
+}
+
+ 
+
+.Name {
+    font-family: "Poppins";
+    color: #ffffff;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins";
+}
+
+.namecontainer {
+    position:absolute;
+    margin-top: 25vh;
+    margin-left: 29vw;
+}
+
+.Picture {
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    /* Allow flexibility */
+    height: auto;
+}
+
+.Pic{
+    position: absolute;
+    width: auto;
+    /* Allow the image to resize based on parent */
+
+    height: 50vh;
+    margin-top: 30vh;
+    margin-left: 20vw;
+    /* Apply movement */
+}
+
+.jeevancontainer {
+    font-family: "Poppins";
+    color: #ffffff;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins";
+}
+
+.jeevan {
+    position:absolute;
+    top: 25vh;
+    left: 64vw;
+}
+
+.JeevanPic {
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    /* Allow flexibility */
+    height: auto;
+}
+
+.Jeevan{
+    position: absolute;
+    width: auto;
+    /* Allow the image to resize based on parent */
+
+    height: 50vh;
+    margin-top: 30vh;
+    margin-left: 55vw;
+    /* Apply movement */
+}
+
+.p-1-container {
+    position: absolute;
+    width: 70%;
+    left: 17vw;
+    top: 80vh;
+}
+
+.p-1 {
+    padding: 2rem;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.76em;
+    font-family: "Poppins";
+}

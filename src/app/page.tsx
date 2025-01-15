@@ -1,4 +1,4 @@
-import Navbar from "./navbar/page"
+
 import Hero from "./home/page"
 
 

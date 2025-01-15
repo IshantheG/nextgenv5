@@ -1,7 +1,7 @@
 "use client"
 
 import "../styles/about.css";
-import React, { useState } from 'react'
+
 import Navbar from "../navbar/page"
 
 
@@ -77,7 +77,7 @@ export default function About() {
 
             </div>
 
-            <div className="sParagraph"><p>Entrepreneurship is fundamental to a country’s economic growth, and requires a strong foundation of people behind it. This means that without young and diverse drivers of progress, Canada is likely to fall behind in the world of tomorrow. </p></div>
+            <div className="sParagraph"><p>Entrepreneurship is fundamental to a country&apos;s economic growth, and requires a strong foundation of people behind it. This means that without young and diverse drivers of progress, Canada is likely to fall behind in the world of tomorrow. </p></div>
 
             <div><h2 className="OverviewSub">Program Overview</h2></div>
             <div className="p3Container">
@@ -95,7 +95,7 @@ export default function About() {
 
                 <div className="p4">
                     <p>
-                    Our mission is to address the lack of diversity in Canadian entrepreneurship by inspiring marginalized youth to enter the tech and entrepreneurial sectors. The program's positive impact will be amplified by involving diverse mentors who serve as exemplary role models, demonstrating that success can come from any background. The goal is to spark the entrepreneurial spirit in underrepresented groups, empowering them to overcome economic barriers and improve their futures.
+                    Our mission is to address the lack of diversity in Canadian entrepreneurship by inspiring marginalized youth to enter the tech and entrepreneurial sectors. The program&apos;s positive impact will be amplified by involving diverse mentors who serve as exemplary role models, demonstrating that success can come from any background. The goal is to spark the entrepreneurial spirit in underrepresented groups, empowering them to overcome economic barriers and improve their futures.
 
                 </p>
                 </div>

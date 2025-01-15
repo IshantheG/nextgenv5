@@ -1,7 +1,7 @@
 "use client"
 
 import "../styles/GetInvolved.css";
-import React, { useState } from 'react'
+
 import Navbar from "../navbar/page"
 
 
