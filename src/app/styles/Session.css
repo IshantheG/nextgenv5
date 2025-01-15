@@ -91,7 +91,7 @@
     width: 100%;
     /* Allow flexibility */
     height: auto;
-    margin-top: 105vh;
+    margin-top: 180vh;
     margin-left: 15vw;
 }
 
@@ -293,7 +293,7 @@
 .Week2 {
     position: absolute;
     right: 5vw;
-    top: 270vh;
+    top: 170vh;
     font-size: 1.5rem;
     white-space: nowrap;
     /* Prevents text wrapping */
@@ -307,7 +307,7 @@
 .Week2-Time {
     position: absolute;
     right: 5vw;
-    top: 275vh;
+    top: 175vh;
     font-size: 1.5rem;
     white-space: nowrap;
     /* Prevents text wrapping */
@@ -322,7 +322,7 @@
     position: absolute;
     width: 50rem;
     right: 5vw;
-    top: 282vh;
+    top: 182vh;
 }
 
 .Week2p {
@@ -337,7 +337,7 @@
 .Week3 {
     position: absolute;
     left: 5vw;
-    top: 340vh;
+    top: 240vh;
     font-size: 1.5rem;
     white-space: nowrap;
     /* Prevents text wrapping */
@@ -351,7 +351,7 @@
 .Week3-Time {
     position: absolute;
     left: 5vw;
-    top: 345vh;
+    top: 245vh;
     font-size: 1.5rem;
     white-space: nowrap;
     /* Prevents text wrapping */
@@ -366,7 +366,7 @@
     position: absolute;
     width: 80rem;
     left: 5vw;
-    top: 352vh;
+    top: 252vh;
 }
 
 .Week3p {
@@ -381,7 +381,7 @@
 .Week4 {
     position: absolute;
     right: 5vw;
-    top: 425vh;
+    top: 325vh;
     font-size: 1.5rem;
     white-space: nowrap;
     /* Prevents text wrapping */
@@ -395,7 +395,7 @@
 .Week4-Time {
     position: absolute;
     right: 5vw;
-    top: 430vh;
+    top: 330vh;
     font-size: 1.5rem;
     white-space: nowrap;
     /* Prevents text wrapping */
@@ -410,7 +410,7 @@
     position: absolute;
     width: 50rem;
     right: 5vw;
-    top: 437vh;
+    top: 337vh;
 }
 
 .Week4p {
@@ -438,14 +438,14 @@
     /* Allow the image to resize based on parent */
 
     height: auto;
-    transform: translate(7vw, 470vh);
+    transform: translate(7vw, 370vh);
     /* Apply movement */
 }
 
 .Week5 {
     position: absolute;
     left: 5vw;
-    top: 505vh;
+    top: 405vh;
     font-size: 1.5rem;
     white-space: nowrap;
     /* Prevents text wrapping */
@@ -459,7 +459,7 @@
 .Week5-Time {
     position: absolute;
     left: 5vw;
-    top: 510vh;
+    top: 410vh;
     font-size: 1.5rem;
     white-space: nowrap;
     /* Prevents text wrapping */
@@ -474,7 +474,7 @@
     position: absolute;
     width: 50rem;
     left: 5vw;
-    top: 517vh;
+    top: 417vh;
 }
 
 
@@ -501,14 +501,14 @@
     /* Allow the image to resize based on parent */
 
     height: auto;
-    transform: translate(65vw, 520vh);
+    transform: translate(65vw, 420vh);
     /* Apply movement */
 }
 
 .Theme-Container {
     position: absolute;
     left: 8vw;
-    top: 550vh;
+    top: 450vh;
 }
 
 .Theme {
@@ -524,7 +524,7 @@
     position: absolute;
     width: 50rem;
     left: 5vw;
-    top: 570vh;
+    top: 470vh;
 }
 
 .Week5p2 {
@@ -550,7 +550,7 @@
     /* Allow the image to resize based on parent */
 
     height: auto;
-    transform: translate(65vw, 575vh);
+    transform: translate(65vw, 475vh);
     /* Apply movement */
 }
 
@@ -560,7 +560,7 @@
     width: 100%;
     /* Allow flexibility */
     height: auto;
-    margin-top: 615vh;
+    margin-top: 515vh;
     margin-left: 130vw;
 }
 
