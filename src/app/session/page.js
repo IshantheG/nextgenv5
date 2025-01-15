@@ -56,7 +56,7 @@ export default function Session() {
 
             <div className="p-1-container">
                 <p className="p-1">
-                    Both entrepreneurship and actualization parallel the stages of a rocket launch: fueling, ignition, and liftoff. It begins with maximizing potential energy behind an idea or a person, akin to fueling a rocket. The ignition phase signals the time when this energy translates into gaining momentum, and liftoff represents directing that monentum to reach new heights.
+                    Both entrepreneurship and actualization parallel the stages of a rocket launch: fueling, ignition, and liftoff. It begins with maximizing potential energy behind an idea or a person, akin to fueling a rocket. The ignition phase signals the time when this energy translates into gaining momentum, and liftoff represents directing that momentum to reach new heights.
                 </p>
 
                 <p className="p-2">
@@ -160,7 +160,7 @@ export default function Session() {
 
             <div className="Theme-Container">
                 <div className = "Theme">
-                    <h1>How Do We Make Living Spaces More Accessible?</h1>
+                    <h1>How Do We Make Living Spaces More Sustainable?</h1>
                 </div>
             </div>
 
