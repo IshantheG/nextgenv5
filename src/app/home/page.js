@@ -6,23 +6,12 @@ import Navbar from "../navbar/page"
 
 export default function Hero() {
 
-    const [blurred, setblurred] = useState(false)
-
-    const handleClick = () => {
-        setblurred(prevState => !prevState)
-    }
-
-
-
-
-
+   
     return (
-        <div className={`hero-page ${blurred ? 'blur' : ''}`}>
+        <div className="hero-page">
 
 <Navbar />
-            <button className="button-21" role="button" onClick={handleClick}>
-                More
-            </button>
+            
 
 
 
