@@ -24,7 +24,7 @@ export default function Contact() {
                 </div>
 
                 <div className="PEmail">
-                    <h1 className = "Email">nextgenlearning@gmail.com</h1>
+                    <h1 className = "Email">nextgenincubatorcanada@gmail.com</h1>
                 </div>
 
                 <div className="SContact">
@@ -32,7 +32,7 @@ export default function Contact() {
                 </div>
 
                 <div className="EmailContainer">
-                    <h1 className = "Email">sunitakak@rexdalechc.com</h1>
+                    <h1 className = "Email">sunita.kak@rexdalechc.com</h1>
                 </div>
 
 

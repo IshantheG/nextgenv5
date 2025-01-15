@@ -22,7 +22,7 @@
 
 .title {
     font-size: 5rem;
-    background: linear-gradient(to right, rgb(62, 161, 207), rgb(5, 130, 180));
+    background: linear-gradient(to right, #00c3cc, #4047eb);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
