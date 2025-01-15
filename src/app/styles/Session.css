@@ -185,25 +185,6 @@
     font-family: "Poppins";
 }
 
-.ScheduleCon {
-    position: absolute;
-    overflow: visible;
-    width: 100%;
-    /* Allow flexibility */
-    height: auto;
-    margin-top: 90vh;
-    margin-left: 15vw;
-
-}
-
-.Schedule {
-    position: absolute;
-    width: 80%;
-    /* Allow the image to resize based on parent */
-
-    height: auto;
-    /* Apply movement */
-}
 
 .p-2 {
     padding-left: 2rem;
