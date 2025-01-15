@@ -77,7 +77,7 @@ export default function About() {
 
             </div>
 
-            <div className="sParagraph"><p>Entrepreneurship is fundamental to a country&apos;s economic growth, and requires a strong foundation of people behind it. This means that without young and diverse drivers of progress, Canada is likely to fall behind in the world of tomorrow. </p></div>
+            <div className="sParagraph"><p>Entrepreneurship is fundamental to a country&apos;s economic growth, and requires a strong foundation of people behind it. This means that without young and diverse drivers of progress, Canada is likely to fall behind in the future. This is why it is imperative that an engine of progress is developed to launch the youth of today into the world of tomorrow. </p></div>
 
             <div><h2 className="OverviewSub">Program Overview</h2></div>
             <div className="p3Container">
