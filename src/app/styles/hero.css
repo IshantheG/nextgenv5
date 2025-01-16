@@ -8,6 +8,7 @@
     width: 100vw;
     overflow: hidden;
     position: relative;
+    background-color: #0e0d0d;
 }
 
 .navbar-container {
