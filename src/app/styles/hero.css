@@ -9,7 +9,6 @@
     overflow: hidden;
     position: relative;
     background-color: #0e0d0d;
-    z-index: 100;
 }
 
 .navbar-container {
