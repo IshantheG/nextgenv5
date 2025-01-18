@@ -28,7 +28,7 @@ export default function Session() {
 
             <div className = "DesignCon"><img src="/Design Process.png" alt="Design" className="QuantumComputing"></img></div></div>
 
-            <div className = "MarketCon"><img src="/MarketAnalysis.png" alt="Market" className="Market"></img></div>
+            <div className = "MarketCon"><img src="/MarketA.png" alt="Market" className="Market"></img></div>
 
             <div className = "PitchCon"><img src="/MarketPitch.png" alt="Pitch" className="Pitch"></img></div>
 
