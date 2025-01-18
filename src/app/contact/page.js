@@ -7,11 +7,11 @@ import Navbar from "../navbar/page"
 
 export default function Contact() {
     return (
-        <div className="Session-page">
+        <div className="contact-page" style={{backgroundColor: "black", color: "white"}}>
             <Navbar />
 
          
-
+            <div style={{ backgroundColor: '#000000' }}>
             <div className="header-container">
                 <div className="title-container">
                     <h1 className="title">Contact Us</h1>
@@ -34,6 +34,7 @@ export default function Contact() {
                 <div className="EmailContainer">
                     <h1 className = "Email">sunita.kak@rexdalechc.com</h1>
                 </div>
+                </div>
 
 
 
@@ -43,3 +44,4 @@ export default function Contact() {
            
     )
 }
+
