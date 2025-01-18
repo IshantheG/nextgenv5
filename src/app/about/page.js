@@ -64,7 +64,7 @@ export default function About() {
 
             <div className="sParagraph">
                 <p>
-                    Entrepreneurship is fundamental to a country's economic growth and requires a strong foundation of people behind it. This means that without young and diverse drivers of progress, Canada is likely to fall behind in the future. This is why it is imperative that an engine of progress is developed to launch the youth of today into the world of tomorrow.
+                    Entrepreneurship is fundamental to a country&apos;s economic growth and requires a strong foundation of people behind it. This means that without young and diverse drivers of progress, Canada is likely to fall behind in the future. This is why it is imperative that an engine of progress is developed to launch the youth of today into the world of tomorrow.
                 </p>
             </div>
 
@@ -85,11 +85,12 @@ export default function About() {
             <div className="p4Container">
                 <div className="p4">
                     <p>
-                        Our mission is to address the lack of diversity in Canadian entrepreneurship by inspiring marginalized youth to enter the tech and entrepreneurial sectors. The program's positive impact will be amplified by involving diverse mentors who serve as exemplary role models, demonstrating that success can come from any background. The goal is to spark the entrepreneurial spirit in underrepresented groups, empowering them to overcome economic barriers and improve their futures.
+                        Our mission is to address the lack of diversity in Canadian entrepreneurship by inspiring marginalized youth to enter the tech and entrepreneurial sectors. The progra&apos;s positive impact will be amplified by involving diverse mentors who serve as exemplary role models, demonstrating that success can come from any background. The goal is to spark the entrepreneurial spirit in underrepresented groups, empowering them to overcome economic barriers and improve their futures.
                     </p>
                 </div>
             </div>
         </div>
     );
 }
+
 
