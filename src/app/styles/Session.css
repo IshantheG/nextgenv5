@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
 .Session-page {
     padding: 0;
     display: flex;
@@ -5,7 +10,7 @@
     justify-content: flex-start;
     /* Start from the top */
     align-items: center;
-    min-height: 100vh;
+    max-height: 1000vh;
     /* Ensures at least the viewport height */
     width: 100vw;
     overflow-y: auto;
@@ -17,7 +22,7 @@
 
 .Chart {
     position: relative;
-    width: 35%;
+    width: 35vw;
     /* Allow the image to resize based on parent */
     max-width: 1000px;
     /* Ensure the image doesn't grow too large */
@@ -111,12 +116,11 @@
 
 .Ideation {
     height: 30%;
-    width: 30%;
+    width: auto;
 
 }
 
 .DesignCon {
-    position: relative;
     overflow: visible;
     width: 100%;
     /* Allow flexibility */
@@ -127,15 +131,10 @@
 .week3div {
     display: flex;
     flex-direction: row;
-    margin-top: 213vh;
-    margin-left: 5%
+    margin-top: 215vh;
+    margin-left: 5%;
+    width: 80vw;
 }
-
-
-
-
-
-
 
 
 
@@ -144,16 +143,18 @@
     top: 2vh;
     left: 0;
     padding: 5rem;
+    
 }
 
 
 .title {
-    font-size: 5rem;
+    font-size: 5vw;
     background: linear-gradient(to right, #00c3cc, #4047eb);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     font-family: "League Spartan";
+    font-size: 5vw;
 }
 
 .sh-container {
@@ -172,9 +173,10 @@
 
 .p-1-container {
     position: absolute;
-    width: 50%;
+    width: 50vw;
     left: 3vw;
     top: 25vh;
+    
 }
 
 .p-1 {
@@ -183,6 +185,7 @@
     white-space: normal;
     line-height: 1.76em;
     font-family: "Poppins";
+    font-size: 1.1vw;
 }
 
 
@@ -193,8 +196,8 @@
     white-space: normal;
     line-height: 1.76em;
     font-family: "Poppins";
+    font-size: 1.1vw;
 }
-
 
 
 .navbar>ul {
@@ -257,6 +260,7 @@
     text-overflow: ellipsis;
     /* Adds ellipsis if text overflows the container */
     font-family: "Poppins";
+    
 }
 
 .Week1-Time {
@@ -276,7 +280,7 @@
 
 .Week1-Container {
     position: absolute;
-    width: 50rem;
+    width: 50vw;
     left: 5vw;
     top: 107vh;
 }
@@ -288,6 +292,7 @@
     white-space: normal;
     line-height: 1.76em;
     font-family: "Poppins";
+    font-size: 1.1vw;
 }
 
 .Week2 {
@@ -320,7 +325,7 @@
 
 .Week2-Container {
     position: absolute;
-    width: 50rem;
+    width: 50vw;
     right: 5vw;
     top: 182vh;
 }
@@ -332,6 +337,7 @@
     white-space: normal;
     line-height: 1.76em;
     font-family: "Poppins";
+    font-size: 1.1vw;
 }
 
 .Week3 {
@@ -364,7 +370,7 @@
 
 .Week3-Container {
     position: absolute;
-    width: 80rem;
+    width: 80vw;
     left: 5vw;
     top: 252vh;
 }
@@ -376,6 +382,7 @@
     white-space: normal;
     line-height: 1.76em;
     font-family: "Poppins";
+    font-size: 1.1vw;
 }
 
 .Week4 {
@@ -408,7 +415,7 @@
 
 .Week4-Container {
     position: absolute;
-    width: 50rem;
+    width: 50vw;
     right: 5vw;
     top: 337vh;
 }
@@ -420,9 +427,26 @@
     white-space: normal;
     line-height: 1.76em;
     font-family: "Poppins";
+    font-size: 1.1vw;
 }
 
+.MarketCon {
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    /* Allow flexibility */
+    height: auto;
+}
 
+.Market {
+    position: absolute;
+    width: 25vw;
+    /* Allow the image to resize based on parent */
+
+    height: auto;
+    transform: translate(7vw, 333vh);
+    /* Apply movement */
+}
 
 .PitchCon {
     position: absolute;
@@ -438,7 +462,7 @@
     /* Allow the image to resize based on parent */
 
     height: auto;
-    transform: translate(7vw, 350vh);
+    transform: translate(7vw, 370vh);
     /* Apply movement */
 }
 
@@ -472,7 +496,7 @@
 
 .Week5-Container {
     position: absolute;
-    width: 50rem;
+    width: 50vw;
     left: 5vw;
     top: 417vh;
 }
@@ -485,6 +509,7 @@
     white-space: normal;
     line-height: 1.76em;
     font-family: "Poppins";
+    font-size: 1.1vw;
 }
 
 .TeamCon {
@@ -509,6 +534,7 @@
     position: absolute;
     left: 8vw;
     top: 450vh;
+    width: 90vw;
 }
 
 .Theme {
@@ -522,7 +548,7 @@
 
 .Week5-Container2 {
     position: absolute;
-    width: 50rem;
+    width: 50vw;
     left: 5vw;
     top: 470vh;
 }
@@ -534,6 +560,7 @@
     white-space: normal;
     line-height: 1.76em;
     font-family: "Poppins";
+    font-size: 1.1vw;
 }
 
 .MoonCon {
@@ -573,3 +600,4 @@
     
     /* Apply movement */
 }
+
