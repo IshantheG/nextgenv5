@@ -131,7 +131,7 @@ body {
 .week3div {
     display: flex;
     flex-direction: row;
-    margin-top: 215vh;
+    margin-top: calc(215*16/9)vh;
     margin-left: 5%;
     width: 80vw;
 }
