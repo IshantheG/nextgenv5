@@ -1,33 +1,30 @@
 "use client"
 
-import "../styles/GetInvolved.css";
+import "../styles/hero.css";
 
 import Navbar from "../navbar/page"
 
+export default function Hero() {
 
-export default function GetInvolved() {
+   
     return (
-        <div className="getinvolved-page">
-            <Navbar />
-
-            <div style={{ backgroundColor: '#000000' }}>
-
-
-
-                <div className="header-container">
-                    <div className="title-container">
-                        <h1 className="title">Get Involved</h1>
-                    </div>
-                </div>
-
-
-                <div className="AppContainer">
-                    <h1 className="Applications">Applications have closed for Iteration 1.0</h1>
-                </div>
+        
+        <div className="hero-page">
+        <Navbar />
+        <div style={{ backgroundColor: '#000000' }}>
+          <div className="header-container">
+            <h1 className="main-header">NextGen Learning</h1>
+            <div>
+              <div className="subheading-container">
+                <h2 className="subheading">
+                  Training the <span className="next">next</span> generation.
+                </h2>
+              </div>
             </div>
+          </div>
         </div>
-
-
+      </div>
     )
 }
+
 
