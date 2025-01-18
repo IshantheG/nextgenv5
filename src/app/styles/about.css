@@ -21,7 +21,7 @@
 }
 
 .title {
-    font-size: 5rem;
+    font-size: 5vw;
     background: linear-gradient(to right, #00c3cc, #4047eb);
     -webkit-background-clip: text;
     background-clip: text;
@@ -45,7 +45,7 @@
 
 .p-1-container {
     position: absolute;
-    width: 50rem;
+    width: 50vw;
     left: 3vw;
     top: 27vh;
 }
@@ -56,6 +56,7 @@
     white-space: normal;
     line-height: 1.76em;
     font-family: "Poppins";
+    font-size: 1.2vw
 }
 
 .break {
@@ -99,21 +100,7 @@
     margin: 0 auto;
 }
 
-.title2-container {
-    position: absolute;
-    top: 80vh;
-    left: 0;
-    padding: 5rem;
-}
 
-.title-2 {
-    font-size: 3rem;
-    background: linear-gradient(to right, rgb(96, 29, 151), rgb(105, 10, 214));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    font-family: "League Spartan";
-}
 
 .stats {
     position: absolute;
@@ -121,7 +108,7 @@
 }
 
 .n-1, .n-2,.n-3, .n-4 {
-    font-size: 12rem;
+    font-size: 12vw;
 }
 
 .n-1-container {
@@ -149,7 +136,8 @@
 
 .fSsub{
     font-family: "Poppins";
-    color:#ff66c4
+    color:#ff66c4;
+    font-size: 1.2vw;
 }
 
 .yet {
@@ -158,6 +146,7 @@
     top: 40vh;
     font-size: 1.5rem;
     font-family: "Poppins";
+    font-size: 1.5vw;
 }
 
 .n-2 {
@@ -165,7 +154,7 @@
     left: 8vw;
     top: 37vh;
     font-family: "Poppins";
-    color: #0abccb
+    color: #0abccb;
 }
 
 .t-2 {
@@ -176,7 +165,8 @@
     overflow: hidden; /* Ensures content doesn't overflow visibly */
     text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
     font-family: "Poppins";
-    color: #0abccb
+    color: #0abccb;
+    font-size: 1.2vw;
 
 }
 
@@ -189,13 +179,14 @@
     overflow: hidden; /* Ensures content doesn't overflow visibly */
     text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
     font-family: "Poppins";
+    font-size: 1.5vw;
 }
 
 .n-3 {
     position: absolute;
     left: 13vw;
     top: 87vh;
-    font-size: 8rem;
+    font-size: 8vw;
     color: #5066f7;
     font-family: "Poppins";
 }
@@ -210,6 +201,7 @@
     text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
     color: #5066f7;
     font-family: "Poppins";
+    font-size: 1.2vw;
     
 }
 
@@ -217,7 +209,7 @@
     position: absolute;
     left: 30vw;
     top: 87vh;
-    font-size: 8rem;
+    font-size: 8vw;
     color: #5066f7;
     font-family: "Poppins";
     
@@ -232,6 +224,7 @@
     overflow: hidden; /* Ensures content doesn't overflow visibly */
     text-overflow: ellipsis; /* Adds ellipsis if text overflows the container */
     color: #5066f7;   
+    font-size: 1.2vw;
 }
 
 .sParagraph {
@@ -242,6 +235,7 @@
     font-family: "Poppins";
     font-weight: 0;
     color: #ffffff;   
+    font-size: 1.2vw;
 }
 
 .OverviewSub {
@@ -250,12 +244,12 @@
     top:225vh;
     color: #ffffff;
     font-family: "Poppins";
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 .p3Container {
     position: absolute;
-    width: 40rem;
+    width: 40vw;
     position:absolute;
     left:3vw;
     top:240vh;
@@ -267,6 +261,7 @@
     word-wrap: break-word;
     white-space: normal;
     line-height: 1.76em;
+    font-size: 1.2vw;
     
 }
 
@@ -276,12 +271,12 @@
     top:225vh;
     color: #ffffff;
     font-family: "Poppins";
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 .p4Container {
     position:absolute;
-    width: 40rem;
+    width: 40vw;
     left:55vw;
     top:240vh;
 }
@@ -291,7 +286,19 @@
     word-wrap: break-word;
     white-space: normal;
     line-height: 1.76em;
+    font-size: 1.2vw;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
