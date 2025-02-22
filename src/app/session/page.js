@@ -18,7 +18,7 @@ export default function Session() {
             <div className = "JeopardyCon"><img src="/Jeopardy.png" alt="Jeopardy" className="Jeopardy"></img></div>
             <div className = "WhiteBoardingCon"><img src="/Whiteboarding.png" alt="Whiteboarding" className="Whiteboarding"></img></div>
 
-            <div className = "MindsetCon"><img src="/Mindset.png" alt="Mindset" className="Mindset"></img></div>
+            <div className = "MindsetCon"><img src="/EMindset.png" alt="Mindset" className="Mindset"></img></div>
 
             <div className = "ScholarshipCon"><img src="/Scholarship.png" alt="Scholarship" className="Scholarship"></img></div>
 
@@ -36,7 +36,7 @@ export default function Session() {
 
             <div className = "MoonCon"><img src="/Moonshot.png" alt="Moon" className="Moon"></img></div>
 
-            <div className = "RocketTalks"><img src="/RocketTalks.png" alt="RocketTalks" className="Rocket"></img></div>
+            <div className = "RocketTalks"><img src="/Rocketalks.png" alt="RocketTalks" className="Rocket"></img></div>
 
 
             
