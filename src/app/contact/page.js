@@ -27,13 +27,7 @@ export default function Contact() {
                     <h1 className = "Email">nextgenincubatorcanada@gmail.com</h1>
                 </div>
 
-                <div className="SContact">
-                    <h1 className="Supervisor">Supervisor: Sunita Kak</h1>
-                </div>
-
-                <div className="EmailContainer">
-                    <h1 className = "Email">sunita.kak@rexdalechc.com</h1>
-                </div>
+                
                 </div>
 
 
